@@ -1,0 +1,123 @@
+/*=== Common ===*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #636B6A;
+}
+p {
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    color: #ffffff;
+}
+.ba-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row > [class*="col-"] {
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+.row > [class*="col-"]:first-child {
+    margin-left: 0;
+}
+
+/*=== First row ===*/
+.first p {
+    font-size: 36px;
+    line-height: 150px;
+    color: #5E6768;
+}
+.first .col-6 {
+    width: 49%;
+    height: 150px;
+}
+.bg_afdfbf {
+    background: #afdfbf;
+}
+.bg_68c5b8 {
+    background: #68c5b8;
+}
+.bg_fa688a {
+    background: #fa688a;
+}
+
+/*=== Second row ===*/
+.second .col-6 {
+    width: 49%;
+    height: 320px;
+}
+.second p {
+    font-size: 60px;
+    line-height: 320px;
+}
+.inserted .col-2 {
+    width: 32%;
+    height: 161.7px;
+    background: #8a95ef;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.inserted .col-2 p {
+    font-size: 20px;
+    line-height: 161.7px;
+}
+.inserted .col-3 {
+    width: 49%;
+    height: 147px;
+    background: #ffc569;
+    margin-left: 2%;
+}
+.inserted .col-3 p {
+    font-size: 28px;
+    line-height: 147px;
+    color: #5E6768;
+}
+
+/*=== Third row ===*/
+.third > [class*='col-'] {
+    height: 185px;
+    background: #588cc7;
+}
+.third .col-4 {
+    font-size: 36px;
+    line-height: 185px;
+    width: 32%;
+}
+.third .col-2 {
+    width: 16%;
+}
+.third .col-2 p {
+    font-size: 20px;
+    line-height: 185px;
+}
+
+/*=== Fourth row ===*/
+.fourth > [class*='col-'] {
+    height: 135px;
+    background: #6652ad;
+    margin-bottom: 0;
+}
+.fourth .col-2 {
+    width: 16%;
+    font-size: 20px;
+}
+.fourth .col-6 {
+    width: 48%;
+    font-size: 28px;
+}
+.fourth .col-4 {
+    width: 33%;
+    font-size: 28px;
+}
+.fourth p {
+    line-height: 135px;
+}
+.clearfix {
+	clear: both;
+}
